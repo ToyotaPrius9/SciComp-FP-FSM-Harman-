@@ -32,6 +32,10 @@ When State in D, it has only two possible outcomes if given an input, the outcom
 
 
 
+
+
+
+
 Here below is the State and Transition Table for the automatic transmission FSM:
 
 
@@ -39,4 +43,36 @@ Here below is the State and Transition Table for the automatic transmission FSM:
 
 
 
-YEAHHHHH
+In the above table, the first column represents the min term, which ranges from m0 till m15, and is later used for the formats of the K-Map
+
+The second column represents the Current State of the FSM and are labelled as A B, so for instance if the a row in that column has 01, then 0 is labelled as A and 1 is labelled as B
+
+The third column represents the Inputs, these inputs are labelled as C D. The labelling format for C D to it's binaries is similiar to that of the second column.
+
+The fourth column represents the Next State. This column isn't labelled and it is there to display what the next state would be after the current recieves input.
+
+The fifth column represents the Output. This column is labelled as Y1 Y2, labelling is formatted the same way as the second and third column.
+
+
+
+Now that the State and Transition Table is complete, the next step is to create the K-map. Since i have an output of two bits Y1 and Y2, i will create two different K-maps, one for Y1 and one more for Y2, and derive the combinatorial boolean equations from both of these K-maps.
+
+
+Here below is the K-Map for Y1:
+
+
+![image](https://user-images.githubusercontent.com/114371673/209612822-f9e3377a-0577-4e48-be76-72396e454dd6.png)
+
+
+The derived combinatorial boolean equation for Y1 = B'C + CD' + AB
+
+
+Here below is the K-Map for Y2:
+
+![image](https://user-images.githubusercontent.com/114371673/209613106-5c916546-ee4d-4074-acbd-5dc82e2e6d5e.png)
+
+
+The derived combinatorial boolean equation for Y2 = D + ABC'
+
+
+
