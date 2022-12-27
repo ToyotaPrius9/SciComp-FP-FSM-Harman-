@@ -94,14 +94,21 @@ In the main.c (which can be found in this repo), it starts off with:
 #include <stdio.h>
 #include <unistd.h>
 
-
 void compute_outputs(int A, int B, int C, int D, int *y1, int *y2) {
+*y1 = !B & C | C & !D | A & B;
+*y2 = D | A & B & !C;
 
-  //This Below Is The Derived Boolean Equation Put Into Play :)
-  *y1 = !B & C | C & !D | A & B;
-  *y2 = D | A & B & !C;
-   // Anything Below This Point Solely Exists For Visualization 
-   }
+
+
+
+The main implimentation of the Derived combinatorial boolean equation for Y1 and Y1 is done inside of that function called compute_outputs. This function stores A,B,C,D as integers and along with y1 y2 which are both pointers. After that, the pointer y1 is storing what is similiar to the derived combinatorial boolean expression from the K-Map of y1 which was done before. 
+
+B'C + CD' + AB here  is expressed in C by !B & C | C & !D | A & B
+
+D + ABC' here is expressed in C by D | A & B & !C
+
+
+   
 
   
 
