@@ -78,3 +78,20 @@ The derived combinatorial boolean equation for Y2 = D + ABC'
 
 
 
+
+After deriving both combinatorial boolean equation for Y1 and Y2, we can say that:
+
+Output Y1 = B'C + CD' + AB
+Output Y2 = D + ABC'
+
+
+
+Now comes the final part of Implementing this on C. 
+
+
+
+
+
+
+
+
