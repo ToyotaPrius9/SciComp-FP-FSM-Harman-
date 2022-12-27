@@ -107,6 +107,8 @@ B'C + CD' + AB here  is expressed in C by !B & C | C & !D | A & B
 
 D + ABC' here is expressed in C by D | A & B & !C
 
+Everything done below from that point in the main.c are just visualization codes which helps showing the visualization in what the outputs are in each possible state and inputs, the terminal will show the current state with input and output in the same order as the state and transition table, thanks to the very long loop created in the int main(). The terminal will show a simple sort of ASCII art, where in the white texts will represent Park state, the red texts will represent Reverse state, the green texts will represent Neutral state, and finally the blue texts will represent the Drive state. (P,R,N,D). 
+
 
    
 
