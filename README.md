@@ -30,3 +30,13 @@ When State is in N, it has four possible outcomes if given an input, the outcome
 
 When State in D, it has only two possible outcomes if given an input, the outcomes after the input can be: Change to N, Stay in D. D is not able to directly change states to R or P and will stay in D if given the inputs for R or P (01 or 00).
 
+
+
+Here below is the State and Transition Table for the automatic transmission FSM:
+
+
+![image](https://user-images.githubusercontent.com/114371673/209611610-684d008f-b80f-4914-aa4d-1cae6fe605bb.png)
+
+
+
+YEAHHHHH
