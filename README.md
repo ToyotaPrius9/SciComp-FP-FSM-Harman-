@@ -15,8 +15,11 @@ In this FSM diagram, it shows four states P, R, N, D. [Park, Reverse, Neutral, D
 In this automatic transmission FSM, the binary assignments are as below:
 
 00: P
+
 01: R
+
 10: N
+
 11: D
 
 When state is in P, it has four possible outcomes if given an input, the outcomes after the input can be: Stay in P, Change to R, Change to N, Change to D.
