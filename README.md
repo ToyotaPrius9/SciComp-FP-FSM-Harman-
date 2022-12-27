@@ -121,7 +121,7 @@ When main.c is compiled and is running, the terminal should start off by showing
 
 
 
-Every 1.8 seconds of the sleep timer setting set, one new case scenario will pop up in the terminal with colors representing each state. 
+Every 1.8 seconds (depending on the sleep timer set), one new case scenario will pop up in the terminal with colors representing each output states. 
 
   
 
