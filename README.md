@@ -43,13 +43,15 @@ Here below is the State and Transition Table for the automatic transmission FSM:
 
 
 
-In the above table, the first column represents the min term, which ranges from m0 till m15, and is later used for the formats of the K-Map
+In the above table: 
+
+The first column represents the min terms, which ranges from m0 till m15, and is later used for the formats of the K-Map.
 
 The second column represents the Current State of the FSM and are labelled as A B, so for instance if the a row in that column has 01, then 0 is labelled as A and 1 is labelled as B
 
 The third column represents the Inputs, these inputs are labelled as C D. The labelling format for C D to it's binaries is similiar to that of the second column.
 
-The fourth column represents the Next State. This column isn't labelled and it is there to display what the next state would be after the current recieves input.
+The fourth column represents the Next State. This column isn't labelled and it is there just to display what the next state would be after the current recieves input.
 
 The fifth column represents the Output. This column is labelled as Y1 Y2, labelling is formatted the same way as the second and third column.
 
