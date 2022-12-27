@@ -89,6 +89,23 @@ Output Y2 = D + ABC'
 Now comes the final part of Implementing this on C. 
 
 
+In the main.c (which can be found in this repo), it starts off with:
+
+#include <stdio.h>
+#include <unistd.h>
+
+
+
+  void compute_outputs(int A, int B, int C, int D, int *y1, int *y2) {
+
+   //This Below Is The Derived Boolean Equation Put Into Play :)
+    *y1 = !B & C | C & !D | A & B;
+    *y2 = D | A & B & !C;
+   // Anything Below This Point Solely Exists For Visualization 
+
+  
+
+
 
 
 
