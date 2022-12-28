@@ -7,7 +7,7 @@ The chosen system for this FSM is a Sequential Automatic Transmission, with stat
 
 Firstly, Here below is the diagram for the FSM of this Transmission:
 
-![untitled](https://user-images.githubusercontent.com/114371673/209840809-be77e930-37d7-4847-9431-ef6b15eb0f16.png)
+![gvw9di0ndqlc5ovoku-removebg-preview](https://user-images.githubusercontent.com/114371673/209842905-9a49178c-f1e4-4afb-8d69-e68b9dd4f771.jpg)
 
 
 
