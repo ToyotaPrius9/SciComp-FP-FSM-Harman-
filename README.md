@@ -122,9 +122,8 @@ When main.c is compiled and is running, the terminal should start off by showing
 
 
 
-Every 1.8 seconds (depending on the sleep timer set), one new case scenario will pop up in the terminal with colors representing each output states. 
-
-  
+Every 1.4 seconds (depending on the sleep timer set), one new case scenario will pop up in the terminal with colors representing each output states. 
+After one print, in 1.4 seconds, the [system("clear")] line should erase what is in the terminal and should paste in what the next state is.
 
 
 
