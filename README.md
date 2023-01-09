@@ -116,9 +116,8 @@ Everything done below from that point in the main.c are just visualization codes
 
 
 When main.c is compiled and is running, the terminal should start off by showing as follows:
-
-![image](https://user-images.githubusercontent.com/114371673/209617619-643e0e1f-d0a0-4aef-8de7-982d2b9550b0.png)
 [Before having system("clear")]
+![image](https://user-images.githubusercontent.com/114371673/209617619-643e0e1f-d0a0-4aef-8de7-982d2b9550b0.png)
 
 
 
