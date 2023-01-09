@@ -47,6 +47,8 @@ int main() {
           compute_outputs(A, B, C, D, &y1, &y2);
           printf("\nCurrent State = %d%d | Input = %d%d \n\nOutput = %d%d\n\n", A, B, C, D, y1, y2);
           sleep(1.8); 
+          system("clear");
+          sleep(0.9);
         }
       }
     }
