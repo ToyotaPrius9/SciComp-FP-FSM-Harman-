@@ -44,14 +44,16 @@ int main() {
       for (int C = 0; C <= 1; C++) {
         for (int D = 0; D <= 1; D++) {
           int y1, y2;
+          printf("\033c");
           compute_outputs(A, B, C, D, &y1, &y2);
           printf("\nCurrent State = %d%d | Input = %d%d \n\nOutput = %d%d\n\n", A, B, C, D, y1, y2);
           sleep(1.8); 
-          system("clear");
-          sleep(0.9);
+          
+          
+
         }
       }
     }
-  }
-  return 0;
+  }
+  return 0;
 }
