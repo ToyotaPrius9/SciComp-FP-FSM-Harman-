@@ -116,13 +116,13 @@ Everything done below from that point in the main.c are just visualization codes
 
 
 When main.c is compiled and is running, the terminal should start off by showing as follows:
-[Before having system("clear")]
+[Before having printf("\033c");]
 ![image](https://user-images.githubusercontent.com/114371673/209617619-643e0e1f-d0a0-4aef-8de7-982d2b9550b0.png)
 
 
 
 Every 1.4 seconds (depending on the sleep timer set), one new case scenario will pop up in the terminal with colors representing each output states. 
-After one print, in 1.4 seconds, the [system("clear")] line should erase what is in the terminal and should paste in what the next state is.
+After one print, the [printf("\033c");] line should erase what is in the terminal and should be pasting in what the next state is.
 
 
 
