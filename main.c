@@ -39,19 +39,24 @@ void compute_outputs(int A, int B, int C, int D, int *y1, int *y2) {
 }
 
 int main() {
-  printf("State Index:\nPark = 00\nReverse = 01\nNeutral = 10\nDrive = 11\n\n[Input Them Without Space, For Example:\n0011 -> park state to drive state\n\n");
+  int keep_going = 1;
   int input;
   int A, B, C, D;
   int y1, y2;
-  printf("Enter value for Current State and Input State: ");
-  scanf("%4d", &input);
-  A = input / 1000;
-  B = (input / 100) % 10;
-  C = (input / 10) % 10;
-  D = input % 10;
-  printf("\033c");
-  compute_outputs(A, B, C, D, &y1, &y2);
-  printf("\nCurrent State = %d%d | Input = %d%d \n\nOutput = %d%d\n\n", A, B, C, D, y1, y2);
+  printf("\nState Index:\nPark = 00\nReverse = 01\nNeutral = 10\nDrive = 11\n\n[Input Them Without Space, For Example:\n0011 -> park state to drive state\n\n");
+  while(keep_going) {
+    printf("\nEnter value for Current State and Input State: ");
+    scanf("%4d", &input);
+    A = input / 1000;
+    B = (input / 100) % 10;
+    C = (input / 10) % 10;
+    D = input % 10;
+    printf("\033c");
+    compute_outputs(A, B, C, D, &y1, &y2);
+    printf("\nCurrent State = %d%d | Input = %d%d \n\nOutput = %d%d\n\n", A, B, C, D, y1, y2);
+    printf("Enter 1 to continue or 0 to exit: ");
+    scanf("%d", &keep_going);
+  }
   return 0;
 }
 
