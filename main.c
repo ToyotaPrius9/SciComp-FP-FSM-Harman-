@@ -54,11 +54,11 @@ int main() {
     printf("\033c");
     compute_outputs(A, B, C, D, &y1, &y2);
     printf("\nCurrent State = %d%d | Input = %d%d \n\nOutput = %d%d\n\n", A, B, C, D, y1, y2);
-    printf("Enter 1 to continue or 0 to exit: ");
-    scanf("%d", &keep_going);
+    
+    
   }
   return 0;
 }
 
 // gcc -o main main.c
-// ./main
+// ./main./main
