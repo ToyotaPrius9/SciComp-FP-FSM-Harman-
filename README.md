@@ -116,13 +116,20 @@ Everything done below from that point in the main.c are just visualization codes
 
 
 When main.c is compiled and is running, the terminal should start off by showing as follows:
-[Before having printf("\033c");]
+[old]
 ![image](https://user-images.githubusercontent.com/114371673/209617619-643e0e1f-d0a0-4aef-8de7-982d2b9550b0.png)
 
 
 
-Every 1.4 seconds (depending on the sleep timer set), one new case scenario will pop up in the terminal with colors representing each output states. 
-After one print, the [printf("\033c");] line should erase what is in the terminal and should be pasting in what the next state is.
+In the updated version of the code, the user will be asked for current state and input state, when user inputs current state and input state, it should be showing
+the suited output. 
+
+
+For instance, if users input "0011", it will mean park->drive, and it will show the output of the drive gear's ASCII art. 
+
+
+
+If users input "1101", it will mean drive->reverse, it should be outputting the drive gear's ASCII art this time, following the conditions of the FSM.
 
 
 
